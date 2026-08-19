@@ -114,7 +114,7 @@ export const AdminPipelinePage = () => {
       {/* Kanban Board */}
       <div className="rounded-3xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-4 shadow-2xs">
         {loading ? (
-          <div className="flex gap-4 overflow-x-auto pb-4 pt-1">
+          <div className="flex scroll-fade-x gap-4 overflow-x-auto pb-4 pt-1">
             {[1, 2, 3, 4, 5, 6].map((i) => (
               <div
                 key={i}
