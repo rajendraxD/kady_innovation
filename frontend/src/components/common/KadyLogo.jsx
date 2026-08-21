@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 /**
  * KadyLogo - Official Vector Wordmark for Kady Enterprise ATS
@@ -24,7 +24,7 @@ export const KadyLogo = ({
       >
         {/* Signature Stylized Green Arch "A" */}
         <path
-          d="M 42 40 L 59.5 4 C 60.5 4 65.5 4 66.5 4 L 84 40 H 74.5 C 73 28 69 19 63 19 C 57 19 53 28 51.5 40 H 42 Z"
+          d="M 42 40 L 59.2 4.8 C 60.6 2.2 65.4 2.2 66.8 4.8 L 84 40 H 74.2 C 72.8 27.5 68.8 17.5 63 17.5 C 57.2 17.5 53.2 27.5 51.8 40 H 42 Z"
           fill="#70C100"
         />
       </svg>
@@ -44,12 +44,12 @@ export const KadyLogo = ({
         {/* Letter K */}
         <path
           d="M 0 4 H 8.5 V 40 H 0 V 4 Z M 8.5 25.5 L 27.5 4 H 38 L 19 23 L 39 40 H 27.5 L 8.5 22.5 Z"
-          className={textColor || 'fill-gray-950 dark:fill-white'}
+          className={textColor || 'fill-black dark:fill-white'}
         />
 
         {/* Signature Stylized Green Arch "A" */}
         <path
-          d="M 42 40 L 59.5 4 C 60.8 4 65.2 4 66.5 4 L 84 40 H 74.5 C 73 28 69 19 63 19 C 57 19 53 28 51.5 40 H 42 Z"
+          d="M 42 40 L 59.2 4.8 C 60.6 2.2 65.4 2.2 66.8 4.8 L 84 40 H 74.2 C 72.8 27.5 68.8 17.5 63 17.5 C 57.2 17.5 53.2 27.5 51.8 40 H 42 Z"
           fill="#70C100"
         />
 
@@ -58,13 +58,13 @@ export const KadyLogo = ({
           fillRule="evenodd"
           clipRule="evenodd"
           d="M 90 4 H 109 C 120 4 128 12 128 22 C 128 32 120 40 109 40 H 90 V 4 Z M 98.5 12 V 32 H 108 C 114 32 119 27.5 119 22 C 119 16.5 114 12 108 12 H 98.5 Z"
-          className={textColor || 'fill-gray-950 dark:fill-white'}
+          className={textColor || 'fill-black dark:fill-white'}
         />
 
         {/* Letter Y */}
         <path
           d="M 134 4 H 144 L 154 19.5 L 164 4 H 174 L 158 24.5 V 40 H 149.5 V 24.5 L 134 4 Z"
-          className={textColor || 'fill-gray-950 dark:fill-white'}
+          className={textColor || 'fill-black dark:fill-white'}
         />
       </svg>
 
